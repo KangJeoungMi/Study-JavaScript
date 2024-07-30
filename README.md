@@ -1,6 +1,6 @@
 ## Study-JavaScript
 
-### [1일차](.md)
+### [1일차](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/day01.md)
 > 1. 변수
 > 2. booleans
 > 3. Arrays[배열]
