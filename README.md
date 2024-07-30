@@ -1,7 +1,10 @@
 ## Study-JavaScript
 
 ### [1일차](.md)
-> 1. JavaScript로 요소 조작하기
-> 2. JavaScript 데이터표시 방법
-> 3. JavaScript 키워드
-> 4. JavaScript 변수
+> 1. 변수
+> 2. booleans
+> 3. Arrays[배열]
+> 4. Object[객체]
+> 5. Function [함수]
+> 6. Return [반환값]
+> 7. Conditions [조건문]
