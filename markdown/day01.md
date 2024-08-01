@@ -83,6 +83,8 @@ console.log(daysOfWeek);
 |0|1|2|3|4|5|6|
 ---
 
+
+
 ### 4. Object[객체]
 - 여러 속성을 하나의 변수에 저장할 수 있도록 해주는 데이터 타입
 ```javascript

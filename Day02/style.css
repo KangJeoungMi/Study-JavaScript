@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(215, 215, 215);
+}
+h1{color: rgb(102, 148, 133);}
+
+.active{
+    color: tomato;
+    font-size: 80px;
+    font-weight: 700;
+}
