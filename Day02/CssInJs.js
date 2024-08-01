@@ -60,7 +60,7 @@ CssEvent.addEventListener("click", handlesListClick);
 // add : 명시한 class name을 추가해.
 // function handleTitleClick() {
 //  toggle : class name이 존재하는지 확인한다.
-// class name이 존재하면 toggle은 class name을 제거하고, \
+// class name이 존재하면 toggle은 class name을 제거하고, 
 // class name이 존재하지 않으면 toggle은 class name을 추가한다.
 // function handleTitleClick() {
 // h1.classList.toggle("clicked");
