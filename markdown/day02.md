@@ -44,6 +44,6 @@
 |toggle|class name이 존재하는지 확인|
 
 ✔︎ toggle
-    - class name이 존재하면 toggle은 class name을 제거
-    - class name이 존재하지 않으면 toggle은 class name을 추가
+- class name이 존재하면 toggle은 class name을 제거
+- class name이 존재하지 않으면 toggle은 class name을 추가
 
