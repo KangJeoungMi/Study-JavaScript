@@ -54,15 +54,6 @@ function handlesListClick() {
 
 CssEvent.addEventListener("click", handlesListClick);
 
-// className = 모든 클래스를 교체
-// classList = class를 목록으로 작업할 수 있게끔 허용
-// remove : 명시한 class name을 제거하고
-// add : 명시한 class name을 추가해.
-// function handleTitleClick() {
-//  toggle : class name이 존재하는지 확인한다.
-// class name이 존재하면 toggle은 class name을 제거하고, 
-// class name이 존재하지 않으면 toggle은 class name을 추가한다.
-// function handleTitleClick() {
-// h1.classList.toggle("clicked");
-// }
-// 한번만 적기 때문에 const도 필요 없다. toggle은 버튼같은거다. 켜고끄고.
+function handleTitleClick() {
+h1.classList.toggle("clicked");
+}
