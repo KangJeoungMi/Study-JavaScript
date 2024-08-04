@@ -2,13 +2,13 @@
 
 ### 목차
 
-> 1. 변수
-> 2. booleans
-> 3. Arrays[배열]
-> 4. Object[객체]
-> 5. Function [함수]
-> 6. Return [반환값]
-> 7. Conditions [조건문]
+> 1. [변수](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/day01.md#1-변수)
+> 2. [booleans](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/day01.md#2-boolean)
+> 3. [Arrays[배열]](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/day01.md#3-arrays배열)
+> 4. [Object[객체]](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/day01.md#4-object객체)
+> 5. [Function [함수]](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/day01.md#5-function-함수)
+> 6. [Return [반환값]](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/day01.md#6-return-반환값)
+> 7. [Conditions [조건문]](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/day01.md#6-conditon-조건문)
 
 ---
 

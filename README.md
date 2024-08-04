@@ -6,7 +6,7 @@
 
 > 1. 변수
 > 2. booleans
-> 3. Arrays [배열]
+> 3. Arrays [배열] (+ 7일차)
 > 4. Object[객체]
 > 5. Function [함수]
 > 6. Return [반환값]

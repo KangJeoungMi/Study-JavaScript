@@ -2,10 +2,10 @@
 
 ### 목차
 
-> 1. HTML in JS
-> 2. Elements [요소]
-> 3. Event [이벤트]
-> 4. CSS in JS
+> 1. [HTML in JS](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/day02.md#1-html-in-js)
+> 2. [Elements [요소]](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/day02.md#2-elements-요소)
+> 3. [Event [이벤트]](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/day02.md#2-elements-요소)
+> 4. [CSS in JS](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/day02.md#4-css-in-js)
 
 ---
 
