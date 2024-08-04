@@ -61,7 +61,7 @@ console.log("hello " + MyName);
 |`undefined`| 변수에는 있지만 값이 없는 경우|
 ---
 
-### 3. Arrays[배열]
+### [3. Arrays[배열]](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/day06.md)
 - 여러 자료를 묶어서 활용할 수 있는 자료구조
 ```javascript
 const daysOfWeek = ["mon", "tue", "wed", "thu", "fri", "sat"];
