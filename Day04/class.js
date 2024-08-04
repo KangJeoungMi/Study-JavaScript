@@ -43,6 +43,8 @@ console.log(user);
 console.log(user.firstname + " " + user.lastname + "는 " + user.age + "살 입니다.");
 console.log(user.age);
 
+//----------------------------------------------------------------------------
+// 접근제어자
 // 생성자없이 필드를 작성하면 public, #를 붙히면 private
 class Exper {
   publicField = 2;
