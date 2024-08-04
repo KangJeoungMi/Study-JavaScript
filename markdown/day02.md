@@ -1,4 +1,4 @@
-## JavaScript 1일차 학습
+## JavaScript 2일차 학습
 
 ### 목차
 
