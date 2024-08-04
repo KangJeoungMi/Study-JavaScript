@@ -2,13 +2,13 @@
 
 ### 목차
 
-> 1. [변수](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/day01.md#1-변수)
-> 2. [booleans](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/day01.md#2-boolean)
-> 3. [Arrays[배열]](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/day01.md#3-arrays배열)
-> 4. [Object[객체]](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/day01.md#4-object객체)
-> 5. [Function [함수]](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/day01.md#5-function-함수)
-> 6. [Return [반환값]](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/day01.md#6-return-반환값)
-> 7. [Conditions [조건문]](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/day01.md#6-conditon-조건문)
+1. [변수](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/day01.md#1-변수)
+2. [booleans](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/day01.md#2-boolean)
+3. [Arrays[배열]](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/day01.md#3-arrays배열)
+4. [Object[객체]](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/day01.md#4-object객체)
+5. [Function [함수]](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/day01.md#5-function-함수)
+6. [Return [반환값]](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/day01.md#6-return-반환값)
+7. [Conditions [조건문]](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/day01.md#6-conditon-조건문)
 
 ---
 
@@ -120,12 +120,78 @@ console.log("playerpoints : " + player.points)
 ---
 
 ### 5. Function [함수]
+
 - 계속 반복해서 사용할 수 있는 코드 조각
 ```javascript
 function 함수이름(매개변수1, 매개변수2, ...){
     console.log();
-}
+} // 함수 정의
+함수이름(); // 함수 호출
 ```
+- 매개변수를 이용하는 방법
+```javascript
+(function(initialValue) {
+    let count = initialValue;
+    console.log(count);
+}(10));
+
+// 출력: 10
+```
+
+- 나머지 매개변수
+    - 매개변수가 고정되있지 않고 무수히 많은 함수를 가변 매개변수 함수라고 한다.
+    - `JavaScript`에서는 이러한 함수를 구현할 때 나머지 매개변수를 사용한다.
+    - 함수의 마지막 매개변수 앞에 `...`를 붙인다
+```javascript
+function myFun(a, b, ...manyMoreArgs) {
+  console.log("a", a);
+  console.log("b", b);
+  console.log("manyMoreArgs", manyMoreArgs);
+}
+
+myFun("one", "two", "three", "four", "five", "six");
+
+// 콘솔 출력:
+// a, one
+// b, two
+// manyMoreArgs, [three, four, five, six]
+```
+
+- 즉시실행 함수
+    - 정의 되자마자 즉시 실행 되는 함수
+    - 단 한번만 호출되며 다시 실행할 수 없음
+    - `()` 소괄호로 함수를 감싸 사용한다.
+```javascript
+(function() { // 즉시 실행 함수
+    let a = 1;
+    let b = 2;
+    let c = a + b;
+    console.log(c);
+})();
+
+let a = 2; // 즉시 실행 함수의 변수 a와 충돌이 발생하지 않음
+
+// console에서 출력된 값 : 3
+```
+- 화살표 함수
+    - function 키워드 대신 `=>`(화살표)를 사용하여 함수를 사용하여 기존의 함수보다 간단하고 간결하게 작성
+```plain text
+    1. 하나의 매개변수인 경우 소괄호 () 를 생략할 수 있습니다.
+    2. 함수 내부가 단일 표현식(single expression)인 경우 return 키워드를 생략할 수 있습니다. 
+       return 키워드를 생략할 경우 중괄호 {} 는 반드시 생략해야 합니다.
+    3. 중복된 매개변수 이름을 선언할 수 없습니다
+```
+```javascript
+const add = (a, b) => {
+    return a + b;
+};
+
+add(1, 2);
+// console에서 출력된 값 : 3
+```
+
+
+
 ---
 
 ### 6. Return [반환값]

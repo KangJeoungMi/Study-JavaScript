@@ -15,6 +15,7 @@
 
 ### [2일차](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/day02.md)
 
+> 0. Dom
 > 1. HTML in JS
 > 2. Elements [요소]
 > 3. Event [이벤트]
@@ -32,17 +33,11 @@
 > 4. callback
 
 ### [5일차](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/day05.md)
-> 1. Dom
-> 2. HTML DOM
-> 3. 예외처리
-
-### [6일차](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/day06.md)
-> 1. JSON
-> 2. HTML DOM
-> 3. 예외처리
-
-### [7일차](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/day07.md)
 > 1. Array
 > 2. Array API
+
+### [7일차](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/day07.md)
+> 1. JSON
+> 2. 예외처리
 > 3. 동기/비동기
 > 4. Fetch
