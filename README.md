@@ -6,7 +6,7 @@
 
 > 1. 변수
 > 2. booleans
-> 3. Arrays[배열] (https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/day07.md)
+> 3. Arrays[배열] (https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/day06.md)
 > 4. Object[객체]
 > 5. Function [함수]
 > 6. Return [반환값]
@@ -22,7 +22,7 @@
 
 ### [3일차](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/Login.md)
 
-> 로그인 만들기 (https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/Login.md)
+[로그인 만들기](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/08Login.md)
 ![img_1.png](/images/Login/img04.png)
 
 ### [4일차](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/day04.md)
