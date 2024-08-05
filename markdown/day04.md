@@ -136,6 +136,6 @@ fetchData(processData);
 1. 콜백 지옥(Callback Hell)이라 불리는 복잡한 중첩 구조가 발생할 수 있습니다.
 2. 코드 가독성이 떨어질 수 있습니다.
 
-#### [동기, 비동기 더 알아보기]()
+#### [동기, 비동기 더 알아보기](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/day06.md#4-동기비동기)
 
 ---
