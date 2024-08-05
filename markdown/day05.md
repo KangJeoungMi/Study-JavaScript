@@ -1,5 +1,4 @@
-## JavaScript 로그인 폼 만들기 학습
-
+## JavaScript 5일차 학습
 ### 목차
 > 1. Array
 > 2. Array API

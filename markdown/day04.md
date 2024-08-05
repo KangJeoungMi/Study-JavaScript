@@ -1,4 +1,4 @@
-## JavaScript 로그인 폼 만들기 학습
+## JavaScript 4일차 학습
 
 ### 목차
  1. class
@@ -93,5 +93,49 @@ class Triangle extends Shape {
 ---
 ### 4. callback
 - 파라미터로 함수를 전달하고 함수 내부에서 그 함수를 호출하는 것을 의미
+- 나중에 호출될 의도로 전달되며 **비동기 작업** 을 처리하는데 자주 사용
+```javascript
+function greet(name, callback) {
+    console.log('Hello ' + name);
+    callback();
+}
+
+function sayGoodbye() {
+    console.log('Goodbye!');
+}
+
+greet('Alice', sayGoodbye);
+```
+- `greet` 함수가 `name`과 `callback`을 인수로 받아서 `name`을 출력한 후 `callback` 함수를 호출합니다. `greet` 함수가 호출될 때 `sayGoodbye` 함수가 콜백으로 전달되고, `greet` 함수가 실행된 후에 `sayGoodbye` 함수가 실행됩니다.
+
+#### 비동기 작업에서의 콜백 함수
+- 파일을 읽거나 HTTP요청을 보낼 때 사용
+```javascript
+function fetchData(callback) {
+    setTimeout(function() {
+        const data = { name: 'Alice', age: 25 };
+        callback(data);
+    }, 2000);
+}
+
+function processData(data) {
+    console.log('Name:', data.name);
+    console.log('Age:', data.age);
+}
+
+fetchData(processData);
+```
+- `fetchData` 함수는 2초 후에 데이터를 가져와서 `callback` 함수를 호출합니다. `fetchData`가 호출될 때 `processData` 함수가 콜백으로 전달되며, 데이터가 준비되면 `processData` 함수가 실행되어 데이터를 처리합니다.
+
+#### 장점
+1. 비동기 작업을 처리할 때 유용합니다
+2. 코드의 재사용성을 높입니다
+3. 프로그램의 프름을 제어할 수 있습니다
+
+#### 단점
+1. 콜백 지옥(Callback Hell)이라 불리는 복잡한 중첩 구조가 발생할 수 있습니다.
+2. 코드 가독성이 떨어질 수 있습니다.
+
+#### [동기, 비동기 더 알아보기]()
 
 ---
