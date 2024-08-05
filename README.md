@@ -20,11 +20,14 @@
 > 2. Elements [요소]
 > 3. Event [이벤트]
 > 4. CSS in JS
+---
 
 ### [3일차](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/Login.md)
 
 [로그인 만들기](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/Login.md)
+
 ![img_1.png](/images/Login/img04.png)
+---
 
 ### [4일차](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/day03.md)
 > 1. class
@@ -32,9 +35,13 @@
 > 3. static
 > 4. callback
 
+---
+
 ### [5일차](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/day04.md)
 > 1. Array
 > 2. Array API
+
+---
 
 ### [7일차](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/day05.md)
 > 1. JSON
