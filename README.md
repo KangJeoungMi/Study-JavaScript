@@ -22,14 +22,14 @@
 > 4. CSS in JS
 ---
 
-### [3일차](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/Login.md)
+### [3일차]
 
 [로그인 만들기](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/Login.md)
 
 ![img_1.png](/images/Login/img04.png)
 ---
 
-### [4일차](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/day03.md)
+### [4일차](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/day04.md)
 > 1. class
 > 2. getter, setter
 > 3. static
@@ -37,13 +37,13 @@
 
 ---
 
-### [5일차](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/day04.md)
+### [5일차](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/day05.md)
 > 1. Array
 > 2. Array API
 
 ---
 
-### [7일차](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/day05.md)
+### [6일차](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/day06.md)
 > 1. JSON
 > 2. 예외처리
 > 3. 동기/비동기
