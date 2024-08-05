@@ -10,7 +10,7 @@
 
 ---
 ### [DOM(Document Object Model)](https://velog.io/@ko9612/JavaScript-DOM)
-- JavaScript를 HTML에 적용하기 위해서 HTML의 요소를 <span style='background-color:#ffdce0'>문서 객체 모델(Document Object Model)</span>로 이해하는 것이다.
+- JavaScript를 HTML에 적용하기 위해서 HTML의 요소를 `문서 객체 모델(Document Object Model)`로 이해하는 것이다.
 
 #### DOM API
 - `Document`: <html> DOM 트리의 루트 노드
