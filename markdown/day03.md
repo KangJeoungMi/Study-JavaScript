@@ -65,7 +65,7 @@ class Exper {
 ---
 ### 3. static
 - `static` 키워드를 붙히면 클래스 맴버가 된다.
-- `static`은 <span style="background-color:#fff5b1">클래스 이름</span>으로 접근해야한다
+- `static`은 ***클래스 이름***으로 접근해야한다
 - 각 객체마다 만들어지지 않고공통으로 사용되는 데이터는 메서드에서 사용한다.
 ```javascript
 class Article {
