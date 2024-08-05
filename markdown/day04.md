@@ -1,10 +1,10 @@
 ## JavaScript 4일차 학습
 
 ### 목차
- 1. class
- 2. getter, setter
- 3. static
- 4. callback
+ 1. [class](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/day04.md#1-class)
+ 2. [getter, setter](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/day04.md#2-getter-setter)
+ 3. [static](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/day04.md#3-static)
+ 4. [callback](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/day04.md#4-callback)
 ----
 
 ### 1. class

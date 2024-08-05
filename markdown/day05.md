@@ -1,7 +1,7 @@
 ## JavaScript 5일차 학습
 ### 목차
-> 1. Array
-> 2. Array API
+> 1. [Array](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/day05.md#1-array)
+> 2. [Array API](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/day05.md#2-array-api)
 ----
 
 ### 1. Array
