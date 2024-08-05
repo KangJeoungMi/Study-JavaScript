@@ -6,6 +6,16 @@
 ----
 
 ### 1. Array
+- 여러 자료를 묶어서 활용할 수 있는 특수한 자료구조
+
+| 추가 | 삭제 |
+|-------|-----------|
+|push()|pop()|
+|unshift()|shift()|
+
+#### [참고자료 - 배열의 기초](https://www.tcpschool.com/javascript/js_array_basic)
+
+#### [참고자료 - 배열의 활용](https://www.tcpschool.com/javascript/js_array_application)
 ---
 
 ### 2. Array API

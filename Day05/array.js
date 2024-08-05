@@ -25,7 +25,10 @@ for(let furit of fruits){
 console.log("==== for Each 문 ====");
 // for Each 문은 다양한 형식으로 가능하다
 
+// 함수: 데이터를 원하는 형태로 가공함
+// callback 함수 - 원하는 다양한 형태로 데이터를 가공하기 위해 사용
 /* 콜백함수로 사용
+// 콜백 함수 (함수를 매개변수로 가지는 함수)
   fruits.forEach(function(furit, index, array){
     console.log(furit, index, arrary);
   })
