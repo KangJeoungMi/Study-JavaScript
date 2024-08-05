@@ -141,7 +141,7 @@ asyncFunction();
     });
 
     ```
-![img_6.png](../images/Day06/img06.png)
+    ![img_6.png](../images/Day06/img06.png)
 
 #### POST 방식
 - POST 방식일 때는 HTTP Method , HTTP header , HTTP Body 를 옵션값을 통해 설정해줘야 한다.
@@ -166,4 +166,4 @@ asyncFunction();
     });
 
   ```
-![img_7.png](../images/Day06/img07.png)
+    ![img_7.png](../images/Day06/img07.png)
