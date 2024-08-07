@@ -24,13 +24,19 @@
 
 ### [3일차]
 
-[로그인 만들기](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/Login.md)
+[로그인 만들기](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/Login.md) 
+
 [시계 만들기](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/Clock.md)
+
 [랜덤명언 만들기](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/Qutoes.md)
+
 [랜덤배경 만들기](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/Background.md)
+
 [투두리스트 만들기](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/TodoList.md)!
+
 [날씨 만들기](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/weather.md)
-[img_1.mp4](/images/Day03/img01.mp4)
+
+![img_1.mp4](/images/Day03/img01.mp4)
 ---
 
 ### [4일차](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/day04.md)
