@@ -24,17 +24,11 @@
 
 ### [3일차]
 
-[로그인 만들기](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/Login.md) 
-
-[시계 만들기](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/Clock.md)
-
-[랜덤명언 만들기](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/Qutoes.md)
-
-[랜덤배경 만들기](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/Background.md)
-
-[투두리스트 만들기](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/TodoList.md)!
-
-[날씨 만들기](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/weather.md)
+> 1. [로그인 만들기](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/Login.md)
+> 2. [시계 만들기](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/Clock.md)
+> 3. [랜덤 배경/명언 만들기](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/Bakcground-Quotes.md) 
+> 4. [투두리스트 만들기](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/TodoList.md)
+> 5. [날씨 만들기](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/weather.md)
 
 ![img_1.gif](/images/Day03/gif1.gif)
 ---
