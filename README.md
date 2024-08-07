@@ -36,7 +36,7 @@
 
 [날씨 만들기](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/weather.md)
 
-![img_1.mp4](/images/Day03/img01.mp4)
+![img_1.gif](/images/Day03/gif1.gif)
 ---
 
 ### [4일차](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/day04.md)
