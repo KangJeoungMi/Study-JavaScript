@@ -26,7 +26,7 @@
 
 [로그인 만들기](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/Login.md)
 
-![img_1.png](/images/Login/img04.png)
+![img_1.png](/images/Day03/img01.mov)
 ---
 
 ### [4일차](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/day04.md)
@@ -44,7 +44,8 @@
 ---
 
 ### [6일차](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/day06.md)
-> 1. JSON
-> 2. 예외처리
-> 3. 동기/비동기
-> 4. Fetch
+> 1. AJAX
+> 2. JSON
+> 3. 예외처리
+> 4. 동기/비동기
+> 5. Fetch

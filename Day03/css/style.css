@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'HancomMalangMalang-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2406-1@1.0/HancomMalangMalang-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'YoonChildfundkoreaDaeHan';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408@1.0/YoonChildfundkoreaDaeHan.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    font-family: 'ONE-Mobile-POP';
+    margin: 0 auto;
+}
+
+.hidden {
+    display: none;
+  }
+
+#login-form, #todo-form{
+    margin: 30px auto;
+    width: 400px;
+}
+
+#login-form > input[type="text"]{
+    width: 280px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 16px;
+    padding-left: 10px;
+    border: #fff;
+}
+
+#login-form > input[type="submit"]{
+    width: 80px;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    background-color: #474b66;
+    border: #474b66;
+    margin-left: 10px;
+}
+
+#todo-form > input[type="text"]{
+    width: 380px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 16px;
+    padding-left: 10px;
+    border: #fff;
+
+}
+
+
+img {
+    position:absolute;
+    width:100%;
+    height:100%;
+    left: 0px;
+    top: 0px;
+    right:0px;
+    bottom:0px;
+    z-index: -1;
+    opacity:70%;
+}
+
+#clock{
+    width: 400px;
+    text-align: center;
+    font-size: 50px;
+    margin: auto;
+    margin-top: 30px;
+    color: #fff;
+}
+
+#greeting{
+    width: 400px;
+    text-align: center;
+    font-size: 60px;
+    margin: auto;
+    margin-top: 100px;
+    color: #fff;
+}
+
+#quote{
+    width: 100%;
+    background-color: #00000077;
+    height: 130px;
+    font-size: 25px;
+    margin: 110px 0 0 0 ;
+    color: #ffffff;
+    font-family: 'HancomMalangMalang-Regular';
+}
+#quote>p:first-child{
+    padding: 25px 0 10px 0;
+}
+
+#todo-list{
+    width: 40%;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: #ffffff5b;
+}
+
+li{
+    direction: none;
+    padding: 5px 0;
+}
+
+button{
+    margin: 0 10px;
+    border: none;
+    background-color: #ffffff00;
+}
+
+#weather{
+    margin: 30px;
+    font-size: 20px;
+    color: #fff;
+}

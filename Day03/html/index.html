@@ -3,10 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <title>Login</title>
 </head>
 <body>
+
+    <div id="weather">
+        <span></span>
+        <span></span>
+    </div>
+
+    <h1 class="hidden" id="greeting"></h1>
+
+    <h2 id="clock">00:00:00</h2>
+
     <form class="hidden" id="login-form" >
             <input type="text"
                    required
@@ -14,10 +24,21 @@
                    placeholder="What is your name?" >
             <input type="submit" value="Log In">
     </form>
-    <h1 class="hidden" id="greeting"></h1>
-    <h2 id="clock">00:00</h2>
+    <form id="todo-form">
+        <input type="text" placeholder="Write a To Do and Press Enter" required />
+    </form>
+    <ul id="todo-list"></ul>
+    <div id="quote">
+        <p align="center"></p>
+        <p align="center"></p>
+    </div>
+ 
 
     <script src="../js/Login.js"></script>
     <script src="../js/Clock.js"></script>
-</body>
+    <script src="../js/Quotes.js"></script>
+    <script src="../js/Background.js"></script>
+    <script src="../js/TodoList.js"></script>
+    <script src="../js/Weather.js"></script>
+</body> 
 </html>
