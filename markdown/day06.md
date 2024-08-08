@@ -167,3 +167,33 @@ asyncFunction();
 
   ```
     ![img_7.png](../images/Day06/img07.png)
+
+#### Promise
+- 비동기 작업의 성공 또는 실패를 나타내는 객체
+- 미래에 완료될 일을 나타냄
+
+|keyword|description|
+|-------|-----------|
+|`Pending (대기 중)`|비동기 작업이 아직 완료되지 않은 상태.|
+|`Fulfilled (이행됨)`|비동기 작업이 성공적으로 완료된 상태.|
+|`Rejected (거부됨)`|비동기 작업이 실패한 상태.|
+
+> `fetch`함수는 `promise`를 반환하므로, 비동기 작업이 완료되었을 때 (성공 또는 실패) `then` 과 `catch`를 사용하여 결과를 처리할 수 있음
+
+-  `fetch`를 사용하여 데이터를 가져오고, `Promise`를 통해 결과를 처리하는 예제
+```javascript
+fetch('https://jsonplaceholder.typicode.com/posts/1') // fetch 함수는 이 URL로 HTTP GET 요청을 보냅니다. 이 요청은 Promise를 반환합니다.
+    .then(response => {
+        if (!response.ok) { // response.ok : 응답이 성공적인지 확인합니다. 만약 성공적이지 않다면, 에러를 던집니다.
+            throw new Error('Network response was not ok ' + response.statusText);
+        }
+        return response.json(); // 응응답 데이터를 JSON 형식으로 변환하는 또 다른 Promise를 반환합니다.
+    }) //요청이 성공적으로 완료되면, then 블록이 실행됩니다. 여기서 response 객체는 네트워크 응답을 나타냅니다.
+    .then(data => {
+        console.log('Data fetched:', data); // 데이터를 처리
+    }) // JSON으로 변환된 데이터를 받아서 처리합니다. 여기서 실제로 서버에서 받은 데이터를 사용할 수 있습니다.
+    .catch(error => {
+        console.error('There was a problem with the fetch operation:', error); // 에러 처리
+    }); // Promise가 실패하거나 then 블록에서 에러가 발생하면 catch 블록이 실행됩니다. 여기서 에러를 처리합니다.
+```
+
