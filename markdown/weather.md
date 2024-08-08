@@ -80,7 +80,7 @@ fetch(url)
     |`main`| 주요 기상 정보를 담고 있는 객체|
 
 
-[promise 함수](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/day06.md#5-fetch)
+[promise 함수](https://github.com/KangJeoungMi/Study-JavaScript/blob/master/markdown/day06.md#promise)
 
 [참고자료](https://frogand.tistory.com/207)
 ---
